@@ -1,0 +1,82 @@
+* {
+  font-family: "trebuchet ms", Arial, Helvetica, sans-serif;
+  }
+
+
+body, html {
+  max-width:98em;
+  max-height:100%;
+  margin: auto;
+}
+
+header {
+  height:26em;
+  width:100%;
+  text-align: center;
+  background-size: cover;
+  background-image: url(https://www.numerama.com/content/uploads/2017/04/rick-and-morty.jpeg);
+  margin: auto;
+}
+main {
+
+}
+form {
+  width: 54.8em;
+  max-height:64em;
+  padding: 2em 2em 2em 2em;
+}
+#head {
+  flex-direction: column;
+  color:red;
+}
+#titre {
+  font-size: 6em;
+}
+#soustitre {
+  font-size: 3.6em;
+  position: relative;
+  bottom:100px;
+}
+#displayflex {
+display: flex;
+}
+#gear {
+  position: relative;
+  top:0.45em;
+}
+#texteun, #textedeux, #textetrois {
+padding:2em 3em 2em 3em;
+}
+#gif {
+height: 38em;
+width: 48em;
+border-radius: 1em;
+border:1em outset gray;
+}
+#zonequatre {
+  display: flex;
+}
+.titretexte {
+  font-size: 3.6em;
+}
+
+.fontsizetext {
+  font-size: 1.6em;
+}
+.galerie {
+  width: 13em;
+  height: 13em;
+  padding: 0.5em;
+}
+.container {
+  max-width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.co {
+  flex-direction: column;
+}
+.nom {
+  font-size: 1.8em;
+  font-weight: bold;
+}
