@@ -21,7 +21,6 @@ main {
 
 }
 form {
-  width: 54.8em;
   max-height:64em;
   padding: 2em 2em 2em 2em;
 }
@@ -56,6 +55,14 @@ border:1em outset gray;
 #zonequatre {
   display: flex;
 }
+#usericon {
+  position: relative;
+  right:1.5em;
+  z-index:1;
+}
+#user {
+  z-index: 3;
+}
 .titretexte {
   font-size: 3.6em;
 }
@@ -79,4 +86,22 @@ border:1em outset gray;
 .nom {
   font-size: 1.8em;
   font-weight: bold;
+}
+footer {
+  background-color: green;
+  opacity:0.4;
+  max-height: 15em;
+  height: 15em;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  padding: 0.5em;
+}
+ul {
+  display: flex;
 }
